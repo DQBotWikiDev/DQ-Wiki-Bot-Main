@@ -1,0 +1,27 @@
+{
+	"name": "DQ-Wiki-Bot-Main",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dq_wiki_bot.js",
+	"scripts": {
+		"test": "echo 'Error: no test specified' && exit 1",
+		"start": "node dq_wiki_bot.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DQBotWikiDev/DQ-Wiki-Bot-Main.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DQBotWikiDev/DQ-Wiki-Bot-Main/issues"
+	},
+	"homepage": "https://github.com/DQBotWikiDev/DQ-Wiki-Bot-Main#readme",
+	"dependencies": {
+		"discord.js": "^11.5.1",
+		"discord.js-commando": "^0.10.0",
+		"node-opus": "^0.3.2",
+		"ytdl-core": "^0.29.7"
+	}
+}
